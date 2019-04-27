@@ -1,0 +1,252 @@
+{
+    "type": "APL",
+    "version": "1.0",
+    "theme": "dark",
+    "import": [
+        {
+            "name": "alexa-layouts",
+            "version": "1.0.0"
+        }
+    ],
+    "resources": [
+        {
+            "description": "Stock color for the light theme",
+            "colors": {
+                "colorTextPrimary": "#151920"
+            }
+        },
+        {
+            "description": "Stock color for the dark theme",
+            "when": "${viewport.theme == 'dark'}",
+            "colors": {
+                "colorTextPrimary": "#f0f1ef"
+            }
+        },
+        {
+            "description": "Standard font sizes",
+            "dimensions": {
+                "textSizeBody": 48,
+                "textSizePrimary": 27,
+                "textSizeSecondary": 23,
+                "textSizeSecondaryHint": 25
+            }
+        },
+        {
+            "description": "Common spacing values",
+            "dimensions": {
+                "spacingThin": 6,
+                "spacingSmall": 12,
+                "spacingMedium": 24,
+                "spacingLarge": 48,
+                "spacingExtraLarge": 72
+            }
+        },
+        {
+            "description": "Common margins and padding",
+            "dimensions": {
+                "marginTop": 40,
+                "marginLeft": 60,
+                "marginRight": 60,
+                "marginBottom": 40
+            }
+        }
+    ],
+    "styles": {
+        "textStyleBase": {
+            "description": "Base font description; set color",
+            "values": [
+                {
+                    "color": "@colorTextPrimary"
+                }
+            ]
+        },
+        "textStyleBase0": {
+            "description": "Thin version of basic font",
+            "extend": "textStyleBase",
+            "values": {
+                "fontWeight": "100"
+            }
+        },
+        "textStyleBase1": {
+            "description": "Light version of basic font",
+            "extend": "textStyleBase",
+            "values": {
+                "fontWeight": "300"
+            }
+        },
+        "mixinBody": {
+            "values": {
+                "fontSize": "@textSizeBody"
+            }
+        },
+        "mixinPrimary": {
+            "values": {
+                "fontSize": "@textSizePrimary"
+            }
+        },
+        "mixinSecondary": {
+            "values": {
+                "fontSize": "@textSizeSecondary"
+            }
+        },
+        "textStylePrimary": {
+            "extend": [
+                "textStyleBase1",
+                "mixinPrimary"
+            ]
+        },
+        "textStyleSecondary": {
+            "extend": [
+                "textStyleBase0",
+                "mixinSecondary"
+            ]
+        },
+        "textStyleBody": {
+            "extend": [
+                "textStyleBase1",
+                "mixinBody"
+            ]
+        },
+        "textStyleSecondaryHint": {
+            "values": {
+                "fontFamily": "Bookerly",
+                "fontStyle": "italic",
+                "fontSize": "@textSizeSecondaryHint",
+                "color": "@colorTextPrimary"
+            }
+        }
+    },
+    "layouts": {},
+    "mainTemplate": {
+        "parameters": [
+            "payload"
+        ],
+        "items": [
+            {
+                "when": "${viewport.shape == 'round'}",
+                "type": "Container",
+                "direction": "column",
+                "width": "100vw",
+                "height": "100vh",
+                "items": [
+                    {
+                        "type": "Image",
+                        "width": "100vw",
+                        "height": "100vh",
+                        "source": "https://s3.amazonaws.com/bananabreadbaker/img/IMG_3802.jpg",
+                        "scale": "best-fill",
+                        "overlayColor": "rgba(0, 0, 0, 0.6)",
+                        "position": "absolute"
+                    },
+                    {
+                        "type": "ScrollView",
+                        "width": "100vw",
+                        "height": "100vh",
+                        "item": [
+                            {
+                                "type": "Container",
+                                "paddingLeft": "70dp",
+                                "paddingTop": "15vh",
+                                "paddingRight": "70dp",
+                                "alignItems": "center",
+                                "direction": "column",
+                                "items": [
+                                    {
+                                        "type": "Text",
+                                        "style": "textStyleBody",
+                                        "width": "70vw",
+                                        "textAlign": "center",
+                                        "text": "Banana Bread Baker"
+                                    },
+                                    {
+                                        "type": "Text",
+                                        "style": "textStylePrimary",
+                                        "width": "70vw",
+                                        "paddingTop": "20",
+                                        "textAlign": "center",
+                                        "text": "Thanks for baking with us! If you enjoyed cooking with this app, check out my website dkdoes.us"
+                                    }
+                                ]
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "type": "Container",
+                "width": "100vw",
+                "height": "100vh",
+                "paddingTop": "10vh",
+                "items": [
+                    {
+                        "type": "Image",
+                        "width": "100vw",
+                        "height": "100vh",
+                        "opacity": "20%",
+                        "source": "https://s3.amazonaws.com/bananabreadbaker/img/blur-blurry-bokeh-347139.jpg",
+                        "scale": "best-fill",
+                        "position": "absolute",
+                        "top": "0"
+                    },
+                    {
+                        "type": "Container",
+                        "direction": "row",
+                        "paddingLeft": "60dp",
+                        "paddingRight": "72dp",
+                        "grow": 1,
+                        "shrink": 1,
+                        "height": "100vh",
+                        "items": [
+                            {
+                                "type": "Image",
+                                "width": "40vw",
+                                "height": "60vh",
+                                "paddingRight": "10vh",
+                                "paddingBottom": "15vh",
+                                "source": "https://s3.amazonaws.com/bananabreadbaker/img/IMG_3802.jpg",
+                                "scale": "best-fit",
+                                "align": "left",
+                                "position": "relative"
+                            },
+                            {
+                                "type": "ScrollView",
+                                "height": "100%",
+                                "grow": 1,
+                                "shrink": 1,
+                                "item": [
+                                    {
+                                        "type": "Container",
+                                        "items": [
+                                            {
+                                                "type": "Text",
+                                                "style": "textStyleBody",
+                                                "text": "<b>Banana bread Baker</b>"
+                                            },
+                                            {
+                                                "type": "Text",
+                                                "style": "textStylePrimary",
+                                                "text": "<b>Vegan Chocolate Chip Banana Bread</b>"
+                                            },
+                                            {
+                                                "type": "Text",
+                                                "style": "textStylePrimary",
+                                                "paddingTop": "40dp",
+                                                "paddingRight": "70dp",
+                                                "text": "Thanks for baking with us! If you enjoyed cooking with this app, check out my website dkdoes.us",
+                                                "spacing": "@spacingSmall"
+                                            }
+                                        ]
+                                    }
+                                ]
+                            }
+                        ]
+                    },
+                    {
+                        "footerHint": "Try saying, \"Home\" to start from the beginning...",
+                        "type": "AlexaFooter"
+                    }
+                ]
+            }
+        ]
+    }
+}
