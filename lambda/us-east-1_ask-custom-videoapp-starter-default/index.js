@@ -598,4 +598,4 @@ exports.handler = skillBuilder
   .addErrorHandlers(ErrorHandler)
   .lambda();
 
-  const MIXED_DRINKS = [];
+
