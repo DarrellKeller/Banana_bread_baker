@@ -1,0 +1,275 @@
+{
+    "type": "APL",
+    "version": "1.0",
+    "theme": "dark",
+    "import": [],
+    "resources": [],
+    "styles": {},
+    "layouts": {},
+    "mainTemplate": {
+        "parameters": [
+            "payload"
+        ],
+        "items": [
+            {
+                "type": "Container",
+                "width": "100vw",
+                "height": "100vh",
+                "items": [
+                    {
+                        "type": "Container",
+                        "width": "100vw",
+                        "height": "100vh",
+                        "justifyContent": "center",
+                        "alignItems": "center",
+                        "items": [
+                            {
+                                "type": "Frame",
+                                "width": "100vw",
+                                "height": "12vh",
+                                "backgroundColor": "rgba(60, 46, 60, 0.75)",
+                                "item": [
+                                    {
+                                        "type": "Text",
+                                        "width": "100vw",
+                                        "height": "12vh",
+                                        "textAlign": "center",
+                                        "textAlignVertical": "center",
+                                        "fontSize": "5vw",
+                                        "text": "Chocolate Chip Vegan Banana Bread",
+                                        "fontWeight": "100"
+                                    }
+                                ]
+                            },
+                            {
+                                "type": "Sequence",
+                                "width": "100vw",
+                                "height": "90vh",
+                                "paddingTop": "1vh",
+                                "scrollDirection": "vertical",
+                                "items": [
+                                    {
+                                        "type": "TouchWrapper",
+                                        "item": [
+                                            {
+                                                "type": "Text",
+                                                "paddingLeft": "7vw",
+                                                "paddingBottom": "2vh",
+                                                "textAlignVertical": "center",
+                                                "text": "1. Introduction"
+                                            }
+                                        ],
+                                        "onPress": {
+                                            "type": "SendEvent",
+                                            "arguments": [
+                                                "2"
+                                            ]
+                                        }
+                                    },
+                                    {
+                                        "type": "TouchWrapper",
+                                        "onPress": {
+                                            "type": "SendEvent",
+                                            "arguments": [
+                                                "3"
+                                            ]
+                                        },
+                                        "item": [
+                                            {
+                                                "type": "Text",
+                                                "paddingLeft": "7vw",
+                                                "paddingBottom": "2vh",
+                                                "textAlignVertical": "center",
+                                                "text": "2. Pre-heat oven to 350 and prep pan"
+                                            }
+                                        ]
+                                    },
+                                    {
+                                        "type": "TouchWrapper",
+                                        "item": [
+                                            {
+                                                "type": "Text",
+                                                "paddingLeft": "7vw",
+                                                "paddingBottom": "2vh",
+                                                "textAlignVertical": "center",
+                                                "text": "3. Vegan binding agent - Flax"
+                                            }
+                                        ],
+                                        "onPress": {
+                                            "type": "SendEvent",
+                                            "arguments": [
+                                                "4"
+                                            ]
+                                        }
+                                    },
+                                    {
+                                        "type": "TouchWrapper",
+                                        "item": [
+                                            {
+                                                "type": "Text",
+                                                "paddingLeft": "7vw",
+                                                "paddingBottom": "2vh",
+                                                "textAlignVertical": "center",
+                                                "text": "4. Add 1T Flax to 1T water"
+                                            }
+                                        ],
+                                        "onPress": {
+                                            "type": "SendEvent",
+                                            "arguments": [
+                                                "5"
+                                            ]
+                                        }
+                                    },
+                                    {
+                                        "type": "TouchWrapper",
+                                        "item": [
+                                            {
+                                                "type": "Text",
+                                                "paddingLeft": "7vw",
+                                                "paddingBottom": "2vh",
+                                                "textAlignVertical": "center",
+                                                "text": "5. Mix 1/2 cup of coconut oil with 3 bananas until creamy"
+                                            }
+                                        ],
+                                        "onPress": {
+                                            "type": "SendEvent",
+                                            "arguments": [
+                                                "6"
+                                            ]
+                                        }
+                                    },
+                                    {
+                                        "type": "TouchWrapper",
+                                        "item": [
+                                            {
+                                                "type": "Text",
+                                                "paddingLeft": "7vw",
+                                                "paddingBottom": "2vh",
+                                                "textAlignVertical": "center",
+                                                "text": "6. Add 1t baking soda, 3/4 cup of sugar + pinch of salt"
+                                            }
+                                        ],
+                                        "onPress": {
+                                            "type": "SendEvent",
+                                            "arguments": [
+                                                "7"
+                                            ]
+                                        }
+                                    },
+                                    {
+                                        "type": "TouchWrapper",
+                                        "item": [
+                                            {
+                                                "type": "Text",
+                                                "paddingLeft": "7vw",
+                                                "paddingBottom": "2vh",
+                                                "textAlignVertical": "center",
+                                                "text": "7. Add 1t of vanilla extract and your flax mix, stir"
+                                            }
+                                        ],
+                                        "onPress": {
+                                            "type": "SendEvent",
+                                            "arguments": [
+                                                "8"
+                                            ]
+                                        }
+                                    },
+                                    {
+                                        "type": "TouchWrapper",
+                                        "item": [
+                                            {
+                                                "type": "Text",
+                                                "paddingLeft": "7vw",
+                                                "paddingBottom": "2vh",
+                                                "textAlignVertical": "center",
+                                                "text": "8. Sift 1&1/2 cup of flour to avoid lumps"
+                                            }
+                                        ],
+                                        "onPress": {
+                                            "type": "SendEvent",
+                                            "arguments": [
+                                                "9"
+                                            ]
+                                        }
+                                    },
+                                    {
+                                        "type": "TouchWrapper",
+                                        "item": [
+                                            {
+                                                "type": "Text",
+                                                "paddingLeft": "7vw",
+                                                "paddingBottom": "2vh",
+                                                "textAlignVertical": "center",
+                                                "text": "9. Add flour and slowly mix until just combined"
+                                            }
+                                        ],
+                                        "onPress": {
+                                            "type": "SendEvent",
+                                            "arguments": [
+                                                "10"
+                                            ]
+                                        }
+                                    },
+                                    {
+                                        "type": "TouchWrapper",
+                                        "item": [
+                                            {
+                                                "type": "Text",
+                                                "paddingLeft": "7vw",
+                                                "paddingBottom": "2vh",
+                                                "textAlignVertical": "center",
+                                                "text": "10. (optional) Add 2/3 cup of chocolate chips or desired"
+                                            }
+                                        ],
+                                        "onPress": {
+                                            "type": "SendEvent",
+                                            "arguments": [
+                                                "12"
+                                            ]
+                                        }
+                                    },
+                                    {
+                                        "type": "TouchWrapper",
+                                        "item": [
+                                            {
+                                                "type": "Text",
+                                                "paddingLeft": "7vw",
+                                                "paddingBottom": "2vh",
+                                                "textAlignVertical": "center",
+                                                "text": "11. Even the dough in the pan and add extras as desired"
+                                            }
+                                        ],
+                                        "onPress": {
+                                            "type": "SendEvent",
+                                            "arguments": [
+                                                "13"
+                                            ]
+                                        }
+                                    },
+                                    {
+                                        "type": "TouchWrapper",
+                                        "item": [
+                                            {
+                                                "type": "Text",
+                                                "paddingLeft": "7vw",
+                                                "paddingBottom": "2vh",
+                                                "textAlignVertical": "center",
+                                                "text": "12. Put your pan into the oven at 350F for 40-50 minutes for 8x8 pan, 45-60 minutes for 8x4 pan"
+                                            }
+                                        ],
+                                        "onPress": {
+                                            "type": "SendEvent",
+                                            "arguments": [
+                                                "14"
+                                            ]
+                                        }
+                                    }
+                                ]
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    }
+}

@@ -2,12 +2,7 @@
     "type": "APL",
     "version": "1.0",
     "theme": "dark",
-    "import": [
-        {
-            "name": "alexa-layouts",
-            "version": "1.0.0"
-        }
-    ],
+    "import": [],
     "resources": [
         {
             "description": "Stock color for the light theme",
@@ -240,10 +235,6 @@
                                 ]
                             }
                         ]
-                    },
-                    {
-                        "footerHint": "Try saying, \"Home\" to start from the beginning...",
-                        "type": "AlexaFooter"
                     }
                 ]
             }

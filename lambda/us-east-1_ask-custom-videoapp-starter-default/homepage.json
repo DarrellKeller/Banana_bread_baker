@@ -232,7 +232,7 @@
                                                 "style": "textStylePrimary",
                                                 "paddingTop": "40dp",
                                                 "paddingRight": "70dp",
-                                                "text": "Welcome to banana bread baker. A step by step baking process. We are going to make a great loaf, I can just feel it. You navigate this app with your voice, say \"Alexa, Next\" to continue.",
+                                                "text": "Welcome to banana bread baker. A step by step baking process. You navigate this app with your voice, you can say \"Alexa, Next\" to continue. If at any time you would like to see all the steps, say \"Alexa, Show me the steps\"",
                                                 "spacing": "@spacingSmall"
                                             }
                                         ]
@@ -242,7 +242,7 @@
                         ]
                     },
                     {
-                        "footerHint": "Try saying, \"Alexa, Next\" to continue...",
+                        "footerHint": "Try saying your device's name and \"Next\" to continue...",
                         "type": "AlexaFooter"
                     }
                 ]

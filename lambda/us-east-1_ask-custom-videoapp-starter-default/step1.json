@@ -257,14 +257,6 @@
                 "height": "100vh",
                 "items": [
                     {
-                        "type": "Image",
-                        "width": "100vw",
-                        "height": "100vh",
-                        "source": "${payload.mixedDrinkData.properties.backgroundImg}",
-                        "scale": "best-fill",
-                        "position": "absolute"
-                    },
-                    {
                         "type": "Container",
                         "width": "100vw",
                         "height": "100vh",
@@ -275,7 +267,7 @@
                                 "width": "100vw",
                                 "height": "100vh",
                                 "autoplay": true,
-                                "source": "https://s3.amazonaws.com/bananabreadbaker/video/intro1.mp4",
+                                "source": "https://s3.amazonaws.com/bananabreadbaker/Videov2/step1.mp4",
                                 "onEnd": [
                                     {
                                         "type": "SendEvent",

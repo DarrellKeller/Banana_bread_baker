@@ -310,8 +310,8 @@
                                 "type": "Text",
                                 "width": "100vw",
                                 "textAlign": "center",
-                                "fontSize": "10vh",
-                                "text": "<b>Timelapse</b>"
+                                "fontSize": "6vh",
+                                "text": "<b>When your loaf is done cooking, let it cool for 15 minutes until set</b>"
                             }
                         ]
                     }
