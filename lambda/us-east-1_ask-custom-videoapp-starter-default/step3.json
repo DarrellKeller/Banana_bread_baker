@@ -275,7 +275,7 @@
                                 "width": "100vw",
                                 "height": "100vh",
                                 "autoplay": true,
-                                "source": "https://s3.amazonaws.com/bananabreadbaker/video/step3.mp4",
+                                "source": "https://s3.amazonaws.com/bananabreadbaker/Videov2/step3.mp4",
                                 "onEnd": [
                                     {
                                         "type": "SendEvent",

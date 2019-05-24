@@ -22,11 +22,19 @@
           ]
         },
         {
-          "name": "bread",
+          "name": "Showthesteps",
           "slots": [],
           "samples": [
-            "bread please",
-            "I want bread"
+            "what are the directions",
+            "what are the steps",
+            "show me the directions",
+            "Can I see the directions",
+            "Can I see the steps",
+            "steps",
+            "steps please",
+            "can you show me the steps",
+            "show me the steps please",
+            "Show me the steps"
           ]
         },
         {
@@ -44,10 +52,21 @@
         {
           "name": "AMAZON.PreviousIntent",
           "samples": []
+        },
+        {
+          "name": "miseen",
+          "slots": [],
+          "samples": [
+            "what are the ingredients",
+            "show me the ingredients",
+            "can I see the mise en place",
+            "can I see the ingredients",
+            "show me the mise en place"
+          ]
         }
       ],
       "types": []
     }
   },
-  "version": "19"
+  "version": "23"
 }

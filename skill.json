@@ -17,7 +17,7 @@
     "privacyAndCompliance": {
       "locales": {
         "en-US": {
-          "privacyPolicyUrl": "https://www.dkdoes.us/privacy",
+          "privacyPolicyUrl": "https://www.dkdoes.us/copy-of-terms",
           "termsOfUseUrl": "https://www.dkdoes.us/terms"
         }
       },
@@ -34,7 +34,7 @@
           "smallIconUri": "https://s3.amazonaws.com/iconpicturesforme/alexaiconsmol.png",
           "largeIconUri": "https://s3.amazonaws.com/iconpicturesforme/alexaiconLarge.png",
           "summary": "A step by step guide to make an incredible banana bread everytime.",
-          "description": "A step by step guide to make an incredible banana bread everytime. For Amazon devices with displays.",
+          "description": "A step by step guide to make an incredible banana bread every time. This skill uses video to show you exactly what do, so you don't have to worry about a botched loaf.  For Amazon devices with displays.",
           "examplePhrases": [
             "Alexa open banana bread baker",
             "Alexa start banana bread baker",
@@ -50,12 +50,29 @@
             "show",
             "hub",
             "tv",
-            "kitchen"
-          ]
+            "kitchen",
+            "blending",
+            "pastry",
+            "vegan",
+            "chocolate",
+            "bananabread",
+            "chef",
+            "cook",
+            "baker",
+            "baked",
+            "blend",
+            "reddit",
+            "pinterest",
+            "tasty",
+            "loaf",
+            "quick",
+            "batter"
+          ],
+          "updatesDescription": "There is a new \"show me the steps\" feature that allows you to access all the steps in one place"
         }
       },
       "isAvailableWorldwide": true,
-      "testingInstructions": "No special testing instructions.",
+      "testingInstructions": "This skill only works for devices with a screen.",
       "category": "COOKING_AND_RECIPE",
       "distributionCountries": []
     }
